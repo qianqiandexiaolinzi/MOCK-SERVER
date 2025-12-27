@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ZQ-MOCK-SERVER-TEMP
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mock_db?serverTimezone=Asia/Shanghai&useSSL=false&characterEncoding=utf8
+    password: 123456
+    username: root
+    hikari:
+      maximum-pool-size: 50
