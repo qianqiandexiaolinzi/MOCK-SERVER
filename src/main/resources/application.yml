@@ -1,3 +1,4 @@
+
 spring:
   application:
     name: ZQ-MOCK-SERVER-TEMP
@@ -9,3 +10,5 @@ spring:
     username: root
     hikari:
       maximum-pool-size: 50
+server:
+  port: 18080
